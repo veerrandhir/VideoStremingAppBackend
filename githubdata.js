@@ -90,4 +90,18 @@ const githubData = {
   },
 };
 
-module.exports = githubData;
+const jokes = {
+  Joke: "I am fool to be a fool daily",
+  crazy: {
+    Hot: {
+      jokes1: "In summer due to some people temperature rise",
+      jokes2: "winter is not for summer ",
+      jokes3: "Start observing women in winter if you feel cold",
+    },
+    crazy1: "here is some crazy zokes",
+    crazy2: "All pakistani are not human",
+    crazy3: "Man will be man",
+  },
+};
+
+module.exports = { githubData, jokes };
