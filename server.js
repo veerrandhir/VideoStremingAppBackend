@@ -112,6 +112,10 @@ app.get("/home", (req, res) => {
 app.get("/githubdata", (req, res) => {
   res.json(githubData);
 });
+
+app.get("/jokes", (req, res) => {
+  res.json.map(githubData.jokes);
+});
 app.listen(port, () => {
   console.log(`Server is listning at ${port}`);
 });
