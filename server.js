@@ -1,6 +1,6 @@
 // hello this is your time to take risk
 console.log("Social media ");
-const name = ["Veer randhir"];
+const name = ["Recurcion is Rocking"];
 console.log(name);
 
 let arr = [
@@ -63,9 +63,12 @@ function joy() {
 
 // main recursion operation
 function recur(n) {
-  if (n == 0) return;
+  if (n == 10) return;
   console.log(n);
-  recur(--n); // here if we use post decreament operator it will first use the value then decrease it's value but before that the fn pass and has been called itself so it will result in ininite loop .
+  recur(n + 1); // here if we use post decreament operator it will first use the value then decrease it's value but before that the fn pass and has been called itself so it will result in ininite loop .
+
+  console.log(n);
+
   // so we use eithe --n ; n-1 ; (pre increament or decreament operator)
 }
-// recur(5);// called fn
+// recur(1); // called fn
