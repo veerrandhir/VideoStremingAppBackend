@@ -2,10 +2,11 @@
   "name": "video_server",
   "version": "1.0.0",
   "description": "This is video server backend project, We will try to write clean and industry standerd code.",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "test": "npm run start",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "express": "^5.1.0",
     "mongoose": "^8.14.2",
     "mongose": "^0.0.2-security",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
   }
 }

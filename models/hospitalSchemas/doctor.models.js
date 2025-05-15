@@ -22,7 +22,7 @@ const doctorSchema = new mongoose.Schema(
     },
     IsAvailale: {
       required: true,
-      default: false,
+      default: true,
     },
     Qualification: {
       type: String,
@@ -33,7 +33,7 @@ const doctorSchema = new mongoose.Schema(
       default: 0,
     },
     Rating: {
-      default: 3,
+      default: 0,
     },
     worksInHospitals: [
       { type: mongoose.Schema.Types.ObjectId, ref: "Hospital" },
